@@ -1,0 +1,80 @@
+[
+  {
+    "Id": "1043",
+    "DocNumber": "PO-1043",
+    "TxnDate": "2026-10-01",
+    "VendorRef": {
+      "value": "42",
+      "name": "Altura Green Coffee Importers"
+    },
+    "POStatus": "Closed",
+    "PrivateNote": "Requested by Jonah Reyes (head roaster). Q4 Huila lot.",
+    "TotalAmt": 18400,
+    "Line": [
+      {
+        "Amount": 18400,
+        "Description": "Green coffee, Colombia Huila (69 kg bag)",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Green coffee, Colombia Huila (69 kg bag)"
+          },
+          "Qty": 40,
+          "UnitPrice": 460
+        }
+      }
+    ]
+  },
+  {
+    "Id": "1051",
+    "DocNumber": "PO-1051",
+    "TxnDate": "2026-10-28",
+    "VendorRef": {
+      "value": "46",
+      "name": "Keel Roaster Service"
+    },
+    "POStatus": "Open",
+    "PrivateNote": "Requested by Jonah Reyes (head roaster).",
+    "TotalAmt": 2600,
+    "Line": [
+      {
+        "Amount": 2600,
+        "Description": "Annual roaster maintenance, Loring S35",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Annual roaster maintenance, Loring S35"
+          },
+          "Qty": 1,
+          "UnitPrice": 2600
+        }
+      }
+    ]
+  },
+  {
+    "Id": "1058",
+    "DocNumber": "PO-1058",
+    "TxnDate": "2026-11-01",
+    "VendorRef": {
+      "value": "42",
+      "name": "Altura Green Coffee Importers"
+    },
+    "POStatus": "Open",
+    "PrivateNote": "Requested by Jonah Reyes (head roaster). Holiday blend component.",
+    "TotalAmt": 10400,
+    "Line": [
+      {
+        "Amount": 10400,
+        "Description": "Green coffee, Ethiopia Guji (60 kg bag)",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Green coffee, Ethiopia Guji (60 kg bag)"
+          },
+          "Qty": 20,
+          "UnitPrice": 520
+        }
+      }
+    ]
+  }
+]

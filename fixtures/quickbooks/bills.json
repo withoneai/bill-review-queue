@@ -1,0 +1,656 @@
+[
+  {
+    "Id": "100",
+    "DocNumber": "INV-19880",
+    "TxnDate": "2026-08-12",
+    "DueDate": "2026-09-11",
+    "TotalAmt": 4050,
+    "Balance": 0,
+    "VendorRef": {
+      "value": "41",
+      "name": "Pacific Packaging Co."
+    },
+    "Line": [
+      {
+        "Amount": 3600,
+        "Description": "12oz valve bag, kraft",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "12oz valve bag, kraft"
+          },
+          "Qty": 10000,
+          "UnitPrice": 0.36
+        }
+      },
+      {
+        "Amount": 450,
+        "Description": "Front label, 3x4 in",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Front label, 3x4 in"
+          },
+          "Qty": 10000,
+          "UnitPrice": 0.045
+        }
+      }
+    ]
+  },
+  {
+    "Id": "101",
+    "DocNumber": "INV-20211",
+    "TxnDate": "2026-10-02",
+    "DueDate": "2026-11-01",
+    "TotalAmt": 4050,
+    "Balance": 0,
+    "VendorRef": {
+      "value": "41",
+      "name": "Pacific Packaging Co."
+    },
+    "Line": [
+      {
+        "Amount": 3600,
+        "Description": "12oz valve bag, kraft",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "12oz valve bag, kraft"
+          },
+          "Qty": 10000,
+          "UnitPrice": 0.36
+        }
+      },
+      {
+        "Amount": 450,
+        "Description": "Front label, 3x4 in",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Front label, 3x4 in"
+          },
+          "Qty": 10000,
+          "UnitPrice": 0.045
+        }
+      }
+    ]
+  },
+  {
+    "Id": "102",
+    "DocNumber": "8812",
+    "TxnDate": "2026-10-21",
+    "DueDate": "2026-11-20",
+    "TotalAmt": 18400,
+    "Balance": 0,
+    "VendorRef": {
+      "value": "42",
+      "name": "Altura Green Coffee Importers"
+    },
+    "Line": [
+      {
+        "Amount": 18400,
+        "Description": "Green coffee, Colombia Huila (69 kg bag)",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Green coffee, Colombia Huila (69 kg bag)"
+          },
+          "Qty": 40,
+          "UnitPrice": 460
+        },
+        "LinkedTxn": [
+          {
+            "TxnId": "1043",
+            "TxnType": "PurchaseOrder"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "103",
+    "DocNumber": "RF-55102",
+    "TxnDate": "2026-10-30",
+    "DueDate": "2026-11-29",
+    "TotalAmt": 1180,
+    "Balance": 0,
+    "VendorRef": {
+      "value": "43",
+      "name": "Ridgeline Freight"
+    },
+    "Line": [
+      {
+        "Amount": 1180,
+        "Description": "LTL freight, Altura container drayage 10/20",
+        "DetailType": "AccountBasedExpenseLineDetail",
+        "AccountBasedExpenseLineDetail": {
+          "AccountRef": {
+            "name": "Freight In"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Id": "104",
+    "DocNumber": "3290",
+    "TxnDate": "2026-08-20",
+    "DueDate": "2026-09-19",
+    "TotalAmt": 860,
+    "Balance": 0,
+    "VendorRef": {
+      "value": "44",
+      "name": "Northside Electric"
+    },
+    "Line": [
+      {
+        "Amount": 860,
+        "Description": "Service call 8/18: grinder circuit breaker",
+        "DetailType": "AccountBasedExpenseLineDetail",
+        "AccountBasedExpenseLineDetail": {
+          "AccountRef": {
+            "name": "Repairs & Maintenance"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Id": "105",
+    "DocNumber": "MC-7710",
+    "TxnDate": "2026-10-27",
+    "DueDate": "2026-11-11",
+    "TotalAmt": 1644,
+    "Balance": 0,
+    "VendorRef": {
+      "value": "45",
+      "name": "Mill Creek Dairy"
+    },
+    "Line": [
+      {
+        "Amount": 504,
+        "Description": "Whole milk, gallon",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Whole milk, gallon"
+          },
+          "Qty": 120,
+          "UnitPrice": 4.2
+        }
+      },
+      {
+        "Amount": 1140,
+        "Description": "Oat milk, case of 12",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Oat milk, case of 12"
+          },
+          "Qty": 30,
+          "UnitPrice": 38
+        }
+      }
+    ]
+  },
+  {
+    "Id": "106",
+    "DocNumber": "CFS-0905",
+    "TxnDate": "2026-09-05",
+    "DueDate": "2026-10-05",
+    "TotalAmt": 1250,
+    "Balance": 0,
+    "VendorRef": {
+      "value": "47",
+      "name": "Cascade Facility Services"
+    },
+    "Line": [
+      {
+        "Amount": 1250,
+        "Description": "Cleaning, September",
+        "DetailType": "AccountBasedExpenseLineDetail",
+        "AccountBasedExpenseLineDetail": {
+          "AccountRef": {
+            "name": "Cleaning"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Id": "107",
+    "DocNumber": "CFS-1005",
+    "TxnDate": "2026-10-05",
+    "DueDate": "2026-11-04",
+    "TotalAmt": 1250,
+    "Balance": 0,
+    "VendorRef": {
+      "value": "47",
+      "name": "Cascade Facility Services"
+    },
+    "Line": [
+      {
+        "Amount": 1250,
+        "Description": "Cleaning, October",
+        "DetailType": "AccountBasedExpenseLineDetail",
+        "AccountBasedExpenseLineDetail": {
+          "AccountRef": {
+            "name": "Cleaning"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Id": "108",
+    "DocNumber": "SMI-Q3-2026",
+    "TxnDate": "2026-08-01",
+    "DueDate": "2026-08-31",
+    "TotalAmt": 3960,
+    "Balance": 0,
+    "VendorRef": {
+      "value": "48",
+      "name": "Summit Mutual Insurance"
+    },
+    "Line": [
+      {
+        "Amount": 3960,
+        "Description": "General liability and property, Q3",
+        "DetailType": "AccountBasedExpenseLineDetail",
+        "AccountBasedExpenseLineDetail": {
+          "AccountRef": {
+            "name": "Insurance"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Id": "109",
+    "DocNumber": "INV-20417",
+    "TxnDate": "2026-11-14",
+    "DueDate": "2026-12-14",
+    "TotalAmt": 4860,
+    "Balance": 4860,
+    "VendorRef": {
+      "value": "41",
+      "name": "Pacific Packaging Co."
+    },
+    "Line": [
+      {
+        "Amount": 4860,
+        "Description": "12oz valve bag, kraft",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "12oz valve bag, kraft"
+          },
+          "Qty": 12000,
+          "UnitPrice": 0.405
+        }
+      }
+    ]
+  },
+  {
+    "Id": "110",
+    "DocNumber": "INV-20418",
+    "TxnDate": "2026-11-14",
+    "DueDate": "2026-12-14",
+    "TotalAmt": 540,
+    "Balance": 540,
+    "VendorRef": {
+      "value": "41",
+      "name": "Pacific Packaging Co."
+    },
+    "Line": [
+      {
+        "Amount": 540,
+        "Description": "Front label, 3x4 in",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Front label, 3x4 in"
+          },
+          "Qty": 12000,
+          "UnitPrice": 0.045
+        }
+      }
+    ]
+  },
+  {
+    "Id": "111",
+    "DocNumber": "8830",
+    "TxnDate": "2026-11-12",
+    "DueDate": "2026-12-12",
+    "TotalAmt": 18400,
+    "Balance": 18400,
+    "VendorRef": {
+      "value": "42",
+      "name": "Altura Green Coffee Importers"
+    },
+    "Line": [
+      {
+        "Amount": 18400,
+        "Description": "Green coffee, Colombia Huila (69 kg bag)",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Green coffee, Colombia Huila (69 kg bag)"
+          },
+          "Qty": 40,
+          "UnitPrice": 460
+        },
+        "LinkedTxn": [
+          {
+            "TxnId": "1043",
+            "TxnType": "PurchaseOrder"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "112",
+    "DocNumber": "8851",
+    "TxnDate": "2026-11-17",
+    "DueDate": "2026-12-17",
+    "TotalAmt": 10400,
+    "Balance": 10400,
+    "VendorRef": {
+      "value": "42",
+      "name": "Altura Green Coffee Importers"
+    },
+    "Line": [
+      {
+        "Amount": 10400,
+        "Description": "Green coffee, Ethiopia Guji (60 kg bag)",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Green coffee, Ethiopia Guji (60 kg bag)"
+          },
+          "Qty": 20,
+          "UnitPrice": 520
+        },
+        "LinkedTxn": [
+          {
+            "TxnId": "1058",
+            "TxnType": "PurchaseOrder"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "113",
+    "DocNumber": "RF-55102",
+    "TxnDate": "2026-11-13",
+    "DueDate": "2026-12-13",
+    "TotalAmt": 1180,
+    "Balance": 1180,
+    "VendorRef": {
+      "value": "43",
+      "name": "Ridgeline Freight"
+    },
+    "Line": [
+      {
+        "Amount": 1180,
+        "Description": "LTL freight, Altura container drayage 10/20",
+        "DetailType": "AccountBasedExpenseLineDetail",
+        "AccountBasedExpenseLineDetail": {
+          "AccountRef": {
+            "name": "Freight In"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Id": "114",
+    "DocNumber": "RF-55188",
+    "TxnDate": "2026-11-18",
+    "DueDate": "2026-12-18",
+    "TotalAmt": 640,
+    "Balance": 640,
+    "VendorRef": {
+      "value": "43",
+      "name": "Ridgeline Freight"
+    },
+    "Line": [
+      {
+        "Amount": 640,
+        "Description": "LTL freight, Guji delivery 11/14",
+        "DetailType": "AccountBasedExpenseLineDetail",
+        "AccountBasedExpenseLineDetail": {
+          "AccountRef": {
+            "name": "Freight In"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Id": "115",
+    "DocNumber": "3321",
+    "TxnDate": "2026-11-03",
+    "DueDate": "2026-12-03",
+    "TotalAmt": 2140,
+    "Balance": 2140,
+    "VendorRef": {
+      "value": "44",
+      "name": "Northside Electric"
+    },
+    "Line": [
+      {
+        "Amount": 1420,
+        "Description": "Service call 11/1: roaster exhaust fan motor (part)",
+        "DetailType": "AccountBasedExpenseLineDetail",
+        "AccountBasedExpenseLineDetail": {
+          "AccountRef": {
+            "name": "Repairs & Maintenance"
+          }
+        }
+      },
+      {
+        "Amount": 720,
+        "Description": "Labor, 6 hrs",
+        "DetailType": "AccountBasedExpenseLineDetail",
+        "AccountBasedExpenseLineDetail": {
+          "AccountRef": {
+            "name": "Repairs & Maintenance"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Id": "116",
+    "DocNumber": "3340",
+    "TxnDate": "2026-11-10",
+    "DueDate": "2026-12-10",
+    "TotalAmt": 2140,
+    "Balance": 2140,
+    "VendorRef": {
+      "value": "44",
+      "name": "Northside Electric"
+    },
+    "Line": [
+      {
+        "Amount": 1615,
+        "Description": "Service call 11/7: walk-in cooler compressor relay and contactor (parts)",
+        "DetailType": "AccountBasedExpenseLineDetail",
+        "AccountBasedExpenseLineDetail": {
+          "AccountRef": {
+            "name": "Repairs & Maintenance"
+          }
+        }
+      },
+      {
+        "Amount": 525,
+        "Description": "Labor, 4.5 hrs incl. after-hours callout",
+        "DetailType": "AccountBasedExpenseLineDetail",
+        "AccountBasedExpenseLineDetail": {
+          "AccountRef": {
+            "name": "Repairs & Maintenance"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Id": "117",
+    "DocNumber": "MC-7804",
+    "TxnDate": "2026-11-17",
+    "DueDate": "2026-12-02",
+    "TotalAmt": 1666.8,
+    "Balance": 1666.8,
+    "VendorRef": {
+      "value": "45",
+      "name": "Mill Creek Dairy"
+    },
+    "PrivateNote": "Vendor letter dated 2026-10-15 on file: milk price adjustment of 4.5% effective November 1.",
+    "Line": [
+      {
+        "Amount": 526.8,
+        "Description": "Whole milk, gallon",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Whole milk, gallon"
+          },
+          "Qty": 120,
+          "UnitPrice": 4.39
+        }
+      },
+      {
+        "Amount": 1140,
+        "Description": "Oat milk, case of 12",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Oat milk, case of 12"
+          },
+          "Qty": 30,
+          "UnitPrice": 38
+        }
+      }
+    ]
+  },
+  {
+    "Id": "118",
+    "DocNumber": "BL-2026-0193",
+    "TxnDate": "2026-11-16",
+    "DueDate": "2026-11-26",
+    "TotalAmt": 9800,
+    "Balance": 9800,
+    "VendorRef": {
+      "value": "58",
+      "name": "Brightline Software Ltd"
+    },
+    "PrivateNote": "Arrived by email to ap@. No requester named on the invoice.",
+    "Line": [
+      {
+        "Amount": 9800,
+        "Description": "Annual license, Brightline Inventory Pro, 12 months",
+        "DetailType": "AccountBasedExpenseLineDetail",
+        "AccountBasedExpenseLineDetail": {
+          "AccountRef": {
+            "name": "Software"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Id": "119",
+    "DocNumber": "K-4471",
+    "TxnDate": "2026-11-11",
+    "DueDate": "2026-12-11",
+    "TotalAmt": 3400,
+    "Balance": 3400,
+    "VendorRef": {
+      "value": "46",
+      "name": "Keel Roaster Service"
+    },
+    "Line": [
+      {
+        "Amount": 2600,
+        "Description": "Annual roaster maintenance, Loring S35",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Annual roaster maintenance, Loring S35"
+          },
+          "Qty": 1,
+          "UnitPrice": 2600
+        },
+        "LinkedTxn": [
+          {
+            "TxnId": "1051",
+            "TxnType": "PurchaseOrder"
+          }
+        ]
+      },
+      {
+        "Amount": 800,
+        "Description": "Burner igniter assembly, replaced during service",
+        "DetailType": "ItemBasedExpenseLineDetail",
+        "ItemBasedExpenseLineDetail": {
+          "ItemRef": {
+            "name": "Burner igniter assembly"
+          },
+          "Qty": 1,
+          "UnitPrice": 800
+        }
+      }
+    ]
+  },
+  {
+    "Id": "120",
+    "DocNumber": "CFS-1105",
+    "TxnDate": "2026-11-05",
+    "DueDate": "2026-12-05",
+    "TotalAmt": 1250,
+    "Balance": 1250,
+    "VendorRef": {
+      "value": "47",
+      "name": "Cascade Facility Services"
+    },
+    "Line": [
+      {
+        "Amount": 1250,
+        "Description": "Cleaning, November",
+        "DetailType": "AccountBasedExpenseLineDetail",
+        "AccountBasedExpenseLineDetail": {
+          "AccountRef": {
+            "name": "Cleaning"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Id": "121",
+    "DocNumber": "SMI-Q4-2026",
+    "TxnDate": "2026-11-01",
+    "DueDate": "2026-12-01",
+    "TotalAmt": 3960,
+    "Balance": 3960,
+    "VendorRef": {
+      "value": "48",
+      "name": "Summit Mutual Insurance"
+    },
+    "Line": [
+      {
+        "Amount": 3960,
+        "Description": "General liability and property, Q4",
+        "DetailType": "AccountBasedExpenseLineDetail",
+        "AccountBasedExpenseLineDetail": {
+          "AccountRef": {
+            "name": "Insurance"
+          }
+        }
+      }
+    ]
+  }
+]

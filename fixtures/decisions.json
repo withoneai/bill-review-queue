@@ -1,0 +1,58 @@
+{
+  "decisions": [
+    {
+      "billId": "118",
+      "verdict": "hold",
+      "reason": "Invoice BL-2026-0193 for $9,800 is the first bill ever from Brightline Software Ltd, has no purchase order, and names no requester inside the company.",
+      "ask": {
+        "to": "AP",
+        "question": "Who inside the company ordered the Brightline Inventory Pro license, and have the vendor's bank details been confirmed on a phone number we already had on file (not one from the invoice)?"
+      }
+    },
+    {
+      "billId": "117",
+      "verdict": "pay",
+      "reason": "The whole milk rise from $4.20 to $4.39 (4.5%) on MC-7804 was announced in the vendor letter dated 2026-10-15, before the bill, and is under 6%.",
+      "ask": null
+    },
+    {
+      "billId": "115",
+      "verdict": "pay",
+      "reason": "Invoice 3321 ($2,140) is the 11/1 service call for the roaster exhaust fan motor with 6 hrs labor, a different job and day from invoice 3340 (11/7 walk-in cooler compressor relay), so both are valid despite the same total.",
+      "ask": null
+    },
+    {
+      "billId": "116",
+      "verdict": "pay",
+      "reason": "Invoice 3340 ($2,140) is the 11/7 walk-in cooler compressor relay and contactor call with 4.5 hrs labor, a different job and day from invoice 3321 (11/1 roaster exhaust fan motor), so the matching total is coincidence.",
+      "ask": null
+    },
+    {
+      "billId": "119",
+      "verdict": "hold",
+      "reason": "Invoice K-4471 adds an $800 burner igniter assembly not on PO-1051 ($2,600), raising the order by about 31%, which is over the 10% limit and needs the requester's approval.",
+      "ask": {
+        "to": "Jonah Reyes",
+        "question": "Do you approve the $800 burner igniter assembly Keel replaced during the Loring S35 service, which is not on PO-1051?"
+      }
+    },
+    {
+      "billId": "111",
+      "verdict": "hold",
+      "reason": "Invoice 8830 ($18,400) plus paid invoice 8812 ($18,400) bring $36,800 billed against closed PO-1043, which is for $18,400 (40 bags of Huila).",
+      "ask": {
+        "to": "Jonah Reyes",
+        "question": "Did we receive a second delivery of 40 bags of Colombia Huila beyond the shipment billed on invoice 8812?"
+      }
+    },
+    {
+      "billId": "109",
+      "verdict": "hold",
+      "reason": "The 12oz kraft valve bag price on INV-20417 rose from $0.36 to $0.405 (12.5%) since INV-20211 on 2026-10-02, and a rise over 10% needs the buyer's agreement.",
+      "ask": {
+        "to": "Buyer",
+        "question": "Do you agree to Pacific Packaging's new price of $0.405 per 12oz kraft valve bag, up 12.5% from $0.36?"
+      }
+    }
+  ]
+}

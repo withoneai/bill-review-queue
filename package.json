@@ -1,0 +1,28 @@
+{
+  "name": "bill-review-queue",
+  "version": "1.0.0",
+  "description": "An AI agent for accounts payable: read every unpaid bill in QuickBooks, catch duplicate invoices, double-billed purchase orders and price creep against the vendor's last bill in code, and have Claude write the case for the few a human should look at before they get paid. Built on One.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "check": "tsx src/check.ts",
+    "start": "tsx src/index.ts",
+    "test": "tsx --test src/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.13.0",
+    "@withone/sdk": "^0.7.0",
+    "dotenv": "^18.0.10",
+    "zod": "^4.6.7",
+    "tsx": "^4.23.15"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3"
+  }
+}
